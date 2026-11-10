@@ -86,9 +86,9 @@ function render() {
     const angle = index * step + rotation;
     const depth = Math.cos(angle);
     const x = 300 + 190 * Math.sin(angle);
-    const y = 267 + depth * 17;
+    const y = 317 + depth * 17;
     slot.style.left = `${x / 6}%`;
-    slot.style.top = `${y / 4.5}%`;
+    slot.style.top = `${y / 5.4}%`;
     slot.style.transform = `translate(-50%, -50%) scale(${.88 + depth * .17})`;
     slot.style.zIndex = Math.round(105 + depth * 100);
     slot.style.opacity = .9 + Math.max(0, depth) * .1;
@@ -97,7 +97,7 @@ function render() {
     pole.setAttribute('x1', x);
     pole.setAttribute('x2', x);
     pole.setAttribute('y1', 132 + depth * 21);
-    pole.setAttribute('y2', 375 + depth * 28);
+    pole.setAttribute('y2', 465 + depth * 28);
   });
 
   spokes.forEach((spoke, index) => {
