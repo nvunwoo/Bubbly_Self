@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141626">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="눈 내리는 밤, 우리 둘을 위한 작은 크리스마스 마을.">
+  <title>Bubbly Self · 우리 둘의 크리스마스</title>
+  <link rel="icon" href="/assets/spark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/carousel.js" defer></script>
+</head>
+<body>
+  <div class="scenery" aria-hidden="true">
+    <div class="village"></div>
+    <div class="stars"></div>
+    <div class="meteor"></div>
+    <div class="snow"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Bubbly Self 홈">
+      <img src="/assets/spark.svg" width="32" height="32" alt="">
+      <span>Bubbly Self</span>
+    </a>
+    <span class="edition"><span aria-hidden="true">❄</span> WINTER EDITION</span>
+  </header>
+
+  <main class="home">
+    <section class="intro" aria-labelledby="welcome">
+      <p class="eyebrow"><span aria-hidden="true">✦</span> A LITTLE WINTER WONDER <span aria-hidden="true">✦</span></p>
+      <h1 id="welcome">우리 둘의 <em>크리스마스</em></h1>
+      <p class="intro-copy">눈 내리는 밤, 회전목마에 작은 선물을 숨겨두었어.</p>
+    </section>
+
+    <section class="carousel" aria-label="크리스마스 회전목마" aria-describedby="ride-hint">
+      <div class="ride">
+        <div class="ride-frame">
+          <div class="ride-glow" aria-hidden="true"></div>
+          <svg class="machine" viewBox="0 0 600 450" aria-hidden="true">
+            <defs>
+              <linearGradient id="floor" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#9a494e"/><stop offset="1" stop-color="#612d42"/>
+              </linearGradient>
+              <linearGradient id="base" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#a34c5c"/><stop offset="1" stop-color="#38182e"/>
+              </linearGradient>
+              <linearGradient id="gold" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#fff0bd"/><stop offset=".48" stop-color="#e6aa71"/><stop offset="1" stop-color="#9f5b52"/>
+              </linearGradient>
+              <linearGradient id="red" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#e67980"/><stop offset="1" stop-color="#8f344b"/>
+              </linearGradient>
+              <linearGradient id="cream" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#fff4d9"/><stop offset="1" stop-color="#d8a485"/>
+              </linearGradient>
+              <radialGradient id="shadow">
+                <stop stop-color="#0d0c1a" stop-opacity=".92"/><stop offset="1" stop-color="#0d0c1a" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <ellipse cx="300" cy="411" rx="294" ry="36" fill="url(#shadow)"/>
+            <path d="M53 376v20c0 24 110 43 247 43s247-19 247-43v-20Z" fill="url(#base)" stroke="#2c1b31" stroke-width="2"/>
+            <ellipse cx="300" cy="375" rx="247" ry="42" fill="url(#floor)" stroke="#efbb8b" stroke-width="3"/>
+            <ellipse cx="300" cy="375" rx="224" ry="33" fill="none" stroke="#edab86" stroke-opacity=".45"/>
+            <path d="M54 390c18 21 121 36 246 36s228-15 246-36" fill="none" stroke="#d88f6d" stroke-width="2"/>
+            <g class="floor-spokes"></g>
+            <g class="floor-lights"></g>
+            <path d="M284 143h32v228c0 9-32 9-32 0Z" fill="#985a57" stroke="#f1bd85" stroke-width="2"/>
+            <path d="M294 151v220m12-220v220" stroke="#f6d5a4" stroke-width="2" opacity=".65"/>
+            <g class="poles"></g>
+          </svg>
+
+          <div class="cards">
+            <div class="slot is-current" data-index="0">
+              <a class="card" href="/Capsule_Letter" aria-label="캡슐 편지 열기">
+                <img src="/assets/capsule.svg" width="240" height="238" alt="" draggable="false" fetchpriority="high">
+                <span class="card-caption"><small>01 · LOVE NOTES</small><strong>캡슐 편지</strong><span class="card-arrow" aria-hidden="true">↗</span></span>
+              </a>
+            </div>
+            <div class="slot" data-index="1">
+              <button class="card" type="button" aria-label="산타의 질문, 준비 중">
+                <img src="/assets/santa.svg" width="240" height="238" alt="" draggable="false">
+                <span class="ribbon" aria-hidden="true">Coming soon!</span>
+                <span class="card-caption"><small>02 · NORTH POLE</small><strong>산타의 질문</strong></span>
+              </button>
+            </div>
+            <div class="slot" data-index="2">
+              <button class="card" type="button" aria-label="인형 뽑기, 준비 중">
+                <img src="/assets/claw.svg" width="240" height="238" alt="" draggable="false">
+                <span class="ribbon" aria-hidden="true">Coming soon!</span>
+                <span class="card-caption"><small>03 · TOY ARCADE</small><strong>인형 뽑기</strong></span>
+              </button>
+            </div>
+            <div class="slot" data-index="3">
+              <button class="card" type="button" aria-label="데이트 신청, 준비 중">
+                <img src="/assets/date.svg" width="240" height="238" alt="" draggable="false">
+                <span class="ribbon" aria-hidden="true">Coming soon!</span>
+                <span class="card-caption"><small>04 · JUST US TWO</small><strong>데이트 신청</strong></span>
+              </button>
+            </div>
+            <div class="slot" data-index="4">
+              <button class="card" type="button" aria-label="데이트 이상형 월드컵, 준비 중">
+                <img src="/assets/trophy.svg" width="240" height="238" alt="" draggable="false">
+                <span class="ribbon" aria-hidden="true">Coming soon!</span>
+                <span class="card-caption"><small>05 · OUR FAVORITES</small><strong>데이트 이상형 월드컵</strong></span>
+              </button>
+            </div>
+          </div>
+
+          <svg class="canopy" viewBox="0 0 600 450" aria-hidden="true">
+            <ellipse cx="300" cy="133" rx="249" ry="31" fill="#542a42" stroke="#c48074" stroke-width="2"/>
+            <path d="M51 128c47-16 149-44 234-97 9-6 21-6 30 0 85 53 187 81 234 97-19 24-121 37-249 37S70 152 51 128Z" fill="url(#red)"/>
+            <g class="roof-panels"></g>
+            <g class="roof-trim"></g>
+            <path d="M256 52c15-9 25-16 33-21 7-5 15-5 22 0 8 5 18 12 33 21-9 3-15-5-23-1-8 4-14-7-21-4-8 3-15 8-22 3-6-4-15 5-22 2Z" fill="#fff0dd"/>
+            <path d="M300 4c2 9 5 12 14 14-9 2-12 5-14 14-2-9-5-12-14-14 9-2 12-5 14-14Z" fill="#ffdf9e" stroke="#fff0bd" stroke-width="1.5"/>
+            <ellipse cx="300" cy="121" rx="70" ry="19" fill="#633148" stroke="#f4c999" stroke-width="2"/>
+            <ellipse cx="300" cy="121" rx="64" ry="14" fill="none" stroke="#dc9f84" stroke-opacity=".55"/>
+            <text x="300" y="125" fill="#fff0d5" text-anchor="middle" font-family="Georgia,serif" font-size="10.5" letter-spacing="2.7">✦ NOËL ✦</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="controls" hidden>
+        <button type="button" class="turn previous" aria-label="이전 카드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg></button>
+        <div class="selection">
+          <div class="stops" aria-label="카드 선택">
+            <button type="button" aria-label="캡슐 편지 선택" aria-current="true"></button>
+            <button type="button" aria-label="산타의 질문 선택"></button>
+            <button type="button" aria-label="인형 뽑기 선택"></button>
+            <button type="button" aria-label="데이트 신청 선택"></button>
+            <button type="button" aria-label="데이트 이상형 월드컵 선택"></button>
+          </div>
+          <p class="ride-hint" id="ride-hint">밀어서 회전목마를 돌려 봐</p>
+        </div>
+        <button type="button" class="turn next" aria-label="다음 카드"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6l6 6-6 6"/></svg></button>
+      </div>
+      <p class="visually-hidden" role="status"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span aria-hidden="true">✧</span> MADE FOR THE TWO OF US <span aria-hidden="true">✧</span></footer>
+</body>
+</html>

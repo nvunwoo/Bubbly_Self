@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#111526"/><stop offset=".44" stop-color="#262238"/><stop offset=".75" stop-color="#514056"/><stop offset="1" stop-color="#806070"/></linearGradient>
+    <radialGradient id="haze" cy=".68" r=".57"><stop stop-color="#f0a18d" stop-opacity=".29"/><stop offset="1" stop-color="#c0839a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="snow" x2="0" y2="1"><stop stop-color="#8d7a92"/><stop offset="1" stop-color="#3e3a54"/></linearGradient>
+    <linearGradient id="drift" x2="0" y2="1"><stop stop-color="#9a8398"/><stop offset="1" stop-color="#39364e"/></linearGradient>
+    <linearGradient id="pine" x2="0" y2="1"><stop stop-color="#3f465b"/><stop offset="1" stop-color="#202437"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ffd58e" stop-opacity=".55"/><stop offset=".37" stop-color="#ffba79" stop-opacity=".21"/><stop offset="1" stop-color="#f5a37c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="moon"><stop stop-color="#fff4d4"/><stop offset="1" stop-color="#f4cda5"/></radialGradient>
+    <linearGradient id="house" x2="0" y2="1"><stop stop-color="#8b5564"/><stop offset="1" stop-color="#543c57"/></linearGradient>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#f6c8aa" opacity=".06"/><circle cx="5" cy="4" r=".5" fill="#151828" opacity=".08"/></pattern>
+
+    <g id="fir">
+      <path d="M47 79h7v74h-7z" fill="#533b4c"/>
+      <path d="M50 0Q35 33 22 48l12-1Q25 69 11 81l15-3Q17 103 0 115c19 8 29 8 50 1 21 7 31 7 50-1-17-12-26-33-26-37l15 3C75 69 66 54 66 47l12 1Q65 33 50 0Z" fill="url(#pine)"/>
+      <path d="M50 2q-6 21-24 42 11 3 24-7 12 10 24 7Q57 25 50 2Zm-17 51Q23 72 15 77q14 3 30-9 5-4 9 0 17 12 31 9-10-7-18-24-13 8-19 3-7 5-15-3Zm-8 34q-5 14-17 23 14 4 27-5 9-7 16-3 18 12 40 8-10-8-17-23-15 5-25 1-13 6-24-1Z" fill="#b5a0ab" opacity=".52"/>
+    </g>
+
+    <g id="cabin">
+      <ellipse cx="69" cy="106" rx="83" ry="12" fill="#323049" opacity=".38"/>
+      <path d="M11 48h112v56H11z" fill="url(#house)"/>
+      <path d="M11 56h112m-112 9h112m-112 10h112m-112 10h112m-112 10h112" fill="none" stroke="#b1747d" stroke-opacity=".37"/>
+      <path d="M96 35V9h12v27" fill="#794956"/>
+      <path d="M94 9h16" stroke="#ddd0c9" stroke-width="4" stroke-linecap="round"/>
+      <path d="M1 53 46 11h36l48 42Z" fill="#5b374d" stroke="#392b44" stroke-width="2"/>
+      <path d="M2 51 46 9h37l47 43-18-3-18-16-12 1-12-7H57L43 38l-12 1-16 13Z" fill="#d6c1c0"/>
+      <path d="M55 103V78a11 11 0 0 1 22 0v25Z" fill="#483347" stroke="#b8827c" stroke-width="2"/>
+      <circle cx="72" cy="87" r="1.5" fill="#f3c08d"/>
+      <circle cx="66" cy="45" r="29" fill="url(#glow)"/>
+      <circle cx="66" cy="45" r="6" fill="#ffcc8a" stroke="#94636c" stroke-width="2"/>
+      <g fill="#ffd290" stroke="#bb866e" stroke-width="2"><rect x="23" y="66" width="19" height="20" rx="3"/><rect x="91" y="66" width="19" height="20" rx="3"/></g>
+      <path d="M32 67v18m69-18v18m-77-9h17m51 0h17" stroke="#9b6561" stroke-width="1.4"/>
+      <circle cx="33" cy="76" r="39" fill="url(#glow)"/><circle cx="100" cy="76" r="36" fill="url(#glow)"/>
+      <path d="M8 104q11-6 25-2 12 2 18-1m27 3q17-7 29-3 10 2 19-2" fill="none" stroke="#d2bac1" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g id="lamp">
+      <circle cx="0" cy="13" r="50" fill="url(#glow)"/>
+      <ellipse cy="73" rx="11" ry="3" fill="#44384d"/>
+      <path d="M0 74V23m-7 50H7M-9 7h18l-3 17H-6Z" fill="#eec891" stroke="#4e3b4c" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-11 7 0 0l11 7M0 7v16" fill="none" stroke="#83606c" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-7 7h14" stroke="#f1d0b1" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="bulb"><circle r="12" fill="url(#glow)"/><circle r="2.8" fill="#ffcf8a"/></g>
+    <g id="cabin-lights">
+      <path d="M0 0Q55 29 110 1" fill="none" stroke="#73556b" stroke-width="1.4"/>
+      <use href="#bulb" x="9" y="4"/><use href="#bulb" x="24" y="10"/><use href="#bulb" x="40" y="13"/><use href="#bulb" x="56" y="15"/><use href="#bulb" x="72" y="13"/><use href="#bulb" x="88" y="10"/><use href="#bulb" x="102" y="5"/>
+    </g>
+  </defs>
+
+  <path d="M0 0h1440v900H0Z" fill="url(#sky)"/>
+  <path d="M0 0h1440v900H0Z" fill="url(#haze)"/>
+  <g transform="translate(160 -35)">
+    <circle cx="944" cy="224" r="75" fill="url(#glow)" opacity=".67"/>
+    <path d="M963 198a26 26 0 1 0 5 40 24 24 0 0 1-5-40Z" fill="url(#moon)" opacity=".9"/>
+  </g>
+  <path d="M0 487q99-76 186-67 38-32 76-37 62 6 143 80 52-37 110-43 94 4 175 82 64-47 110-49 57 3 109 41 42-59 88-63 57 1 114 44 60-75 133-98 88 24 196 112v411H0Z" fill="#343247" opacity=".72"/>
+  <path d="M0 534q146-65 264-23 119 43 219 4 94-39 168-9 123 50 235 7 128-45 240-15 158 45 314-34v436H0Z" fill="#423950" opacity=".7"/>
+  <g opacity=".54">
+    <use href="#fir" transform="translate(24 448) scale(.76)"/><use href="#fir" transform="translate(101 478) scale(.48)"/><use href="#fir" transform="translate(165 455) scale(.8)"/><use href="#fir" transform="translate(232 485) scale(.59)"/><use href="#fir" transform="translate(305 479) scale(.62)"/><use href="#fir" transform="translate(359 461) scale(.76)"/><use href="#fir" transform="translate(446 489) scale(.49)"/><use href="#fir" transform="translate(524 493) scale(.52)"/><use href="#fir" transform="translate(589 511) scale(.42)"/><use href="#fir" transform="translate(790 499) scale(.5)"/><use href="#fir" transform="translate(860 478) scale(.68)"/><use href="#fir" transform="translate(927 475) scale(.72)"/><use href="#fir" transform="translate(1015 467) scale(.78)"/><use href="#fir" transform="translate(1082 484) scale(.61)"/><use href="#fir" transform="translate(1328 453) scale(.8)"/><use href="#fir" transform="translate(1390 461) scale(.83)"/>
+  </g>
+
+  <g transform="translate(1216 470)" opacity=".64">
+    <circle r="100" fill="none" stroke="#b47b83" stroke-width="4"/>
+    <circle r="92" fill="none" stroke="#e6b48c" stroke-width="2" stroke-dasharray="2 12" stroke-linecap="round"/>
+    <path d="M-100 0h200M0-100v200m-71-71 142 142m0-142L-71 71m30 49L0 0l41 120" fill="none" stroke="#9b707e" stroke-width="3"/>
+    <circle r="11" fill="#deb38f" stroke="#84596f" stroke-width="4"/>
+    <g fill="#91617a" stroke="#e9b598" stroke-width="2"><rect x="-12" y="-102" width="24" height="17" rx="6"/><rect x="59" y="-74" width="24" height="17" rx="6"/><rect x="-83" y="-74" width="24" height="17" rx="6"/><rect x="88" y="-4" width="24" height="17" rx="6"/><rect x="-112" y="-4" width="24" height="17" rx="6"/><rect x="59" y="67" width="24" height="17" rx="6"/><rect x="-83" y="67" width="24" height="17" rx="6"/></g>
+  </g>
+
+  <path d="M0 574q204-41 384 8 171 46 331 3 181-44 337-8 203 46 388-31v354H0Z" fill="url(#snow)"/>
+  <path d="M0 652q152-50 368-22 231 46 416 22 163-26 337-1 152 18 319-38v287H0Z" fill="#786780"/>
+  <path d="M0 684q227-43 432 5 189 44 334 10 149-36 302-19 199 27 372-34v254H0Z" fill="url(#drift)"/>
+  <path d="M686 635c-77 36-55 63 70 82 110 16 106 56-24 81-74 14-153 31-188 102h379c-35-28-30-64 29-101 68-43 10-83-120-101-102-14-148-36-108-63Z" fill="#e2abb0" opacity=".13"/>
+  <path d="M0 798c162-63 289-61 464-9 72 20 139 22 204 15-89 20-181 37-233 96H0Zm1440-41c-169 5-259 35-362 81-77 35-131 51-192 62h554Z" fill="#91809a" opacity=".41"/>
+
+  <g opacity=".89">
+    <use href="#cabin" transform="translate(113 516) scale(1.24)"/><use href="#cabin" transform="translate(268 535) scale(.94)"/><use href="#cabin" transform="translate(403 555) scale(.68)"/><use href="#cabin" transform="translate(503 555) scale(.76)"/><use href="#cabin" transform="translate(601 566) scale(.57)"/><use href="#cabin" transform="translate(755 555) scale(.62)"/><use href="#cabin" transform="translate(834 553) scale(.86)"/><use href="#cabin" transform="translate(974 546) scale(.82)"/><use href="#cabin" transform="translate(1081 524) scale(1.04)"/><use href="#cabin" transform="translate(1274 518) scale(1.19)"/>
+  </g>
+  <use href="#cabin-lights" transform="translate(78 588) scale(1.12)"/><use href="#cabin-lights" transform="translate(232 612) scale(.94)"/><use href="#cabin-lights" transform="translate(452 612) scale(.95)"/><use href="#cabin-lights" transform="translate(561 620) scale(.7)"/><use href="#cabin-lights" transform="translate(782 620) scale(.7)"/><use href="#cabin-lights" transform="translate(869 614) scale(.92)"/><use href="#cabin-lights" transform="translate(1134 611) scale(1.06)"/><use href="#cabin-lights" transform="translate(1305 592) scale(1.05)"/>
+
+  <use href="#lamp" transform="translate(245 627) scale(1.15)"/><use href="#lamp" transform="translate(418 645) scale(.81)"/><use href="#lamp" transform="translate(536 655) scale(.82)"/><use href="#lamp" transform="translate(890 658) scale(.89)"/><use href="#lamp" transform="translate(1030 638) scale(.94)"/><use href="#lamp" transform="translate(1257 624) scale(1.18)"/>
+  <use href="#fir" transform="translate(-46 518) scale(2.34)"/><use href="#fir" transform="translate(73 607) scale(1.43)"/><use href="#fir" transform="translate(332 635) scale(.86)"/><use href="#fir" transform="translate(455 638) scale(.73)"/><use href="#fir" transform="translate(947 633) scale(.87)"/><use href="#fir" transform="translate(1166 610) scale(1.23)"/><use href="#fir" transform="translate(1264 582) scale(1.9)"/><use href="#fir" transform="translate(1357 512) scale(2.33)"/>
+  <g opacity=".85"><use href="#bulb" x="35" y="631"/><use href="#bulb" x="61" y="640"/><use href="#bulb" x="83" y="628"/><use href="#bulb" x="22" y="701"/><use href="#bulb" x="58" y="713"/><use href="#bulb" x="91" y="694"/><use href="#bulb" x="1321" y="682"/><use href="#bulb" x="1345" y="693"/><use href="#bulb" x="1371" y="673"/><use href="#bulb" x="1402" y="710"/></g>
+  <path d="M0 0h1440v900H0Z" fill="url(#grain)"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 238">
+  <defs><radialGradient id="bg"><stop stop-color="#edbdad"/><stop offset="1" stop-color="#9b687f"/></radialGradient><linearGradient id="frame" x2="0" y2="1"><stop stop-color="#e19a9d"/><stop offset="1" stop-color="#ad5874"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h240v238H0z"/>
+  <ellipse cx="121" cy="199" rx="68" ry="12" fill="#733c62" opacity=".25"/>
+  <rect x="67" y="36" width="106" height="161" rx="15" fill="url(#frame)" stroke="#77445f" stroke-width="3"/>
+  <rect x="77" y="54" width="86" height="103" rx="8" fill="#654657" stroke="#f2c3a1" stroke-width="2"/>
+  <path d="M84 68v53m0 7v8" stroke="#ffe3ba" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 55v22m-12 11 12-11 12 11m-24 0 5 9m19-9-5 9" fill="none" stroke="#ffdfac" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#8b565e" stroke-width="2.5">
+    <circle cx="103" cy="121" r="10" fill="#e3a676"/><circle cx="138" cy="121" r="10" fill="#e3a676"/>
+    <ellipse cx="120" cy="135" rx="25" ry="19" fill="#edb184"/>
+  </g>
+  <ellipse cx="120" cy="142" rx="10" ry="7" fill="#fbe3bc"/><path d="M118 139h4" stroke="#633e4d" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="110" cy="132" r="2" fill="#633e4d"/><circle cx="130" cy="132" r="2" fill="#633e4d"/>
+  <path d="M103 173h31v12h-31z" fill="#77445f" stroke="#f7c4a3" stroke-width="2"/><circle cx="151" cy="176" r="6" fill="#ffcf98"/>
+  <g fill="#fff0cc"><path d="M45 82q1 9 10 10-9 1-10 10-1-9-10-10 9-1 10-10Zm150 43q1 9 10 10-9 1-10 10-1-9-10-10 9-1 10-10Z"/><circle cx="192" cy="71" r="2"/></g>
+</svg>

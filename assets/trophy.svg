@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 238">
+  <defs><radialGradient id="bg"><stop stop-color="#ab8fac"/><stop offset="1" stop-color="#62496c"/></radialGradient><linearGradient id="metal" x2="1" y2="1"><stop stop-color="#fff0bc"/><stop offset="1" stop-color="#d79968"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h240v238H0z"/>
+  <circle cx="120" cy="117" r="82" fill="none" stroke="#f6d0a8" stroke-dasharray="1 5"/>
+  <ellipse cx="120" cy="192" rx="65" ry="10" fill="#44304e" opacity=".27"/>
+  <path d="M86 74H62c1 35 13 47 35 47m57-47h24c-1 35-13 47-35 47" fill="none" stroke="#f3c289" stroke-width="7" stroke-linecap="round"/>
+  <path d="M82 61h76v36c0 21-14 38-32 41v18l17 9H97l17-9v-18c-18-3-32-20-32-41Z" fill="url(#metal)" stroke="#9a5c69" stroke-width="3"/>
+  <path d="M92 70v23" fill="none" stroke="#fff3cd" stroke-width="3" stroke-linecap="round"/>
+  <rect x="90" y="163" width="60" height="17" rx="5" fill="#74445c" stroke="#ebba88" stroke-width="2"/>
+  <path d="M120 115c-32-18-15-38 0-24 15-14 32 6 0 24Z" fill="#b65e77"/>
+  <g fill="#fff0c9"><path d="M50 119q1 9 10 10-9 1-10 10-1-9-10-10 9-1 10-10Zm139-4q1 9 10 10-9 1-10 10-1-9-10-10 9-1 10-10Z"/><circle cx="181" cy="55" r="3"/><circle cx="67" cy="162" r="2.5"/></g>
+</svg>
