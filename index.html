@@ -16,8 +16,9 @@
     <div class="village"></div>
     <div class="stars"></div>
     <div class="meteor"></div>
-    <div class="snow"></div>
+    <div class="snow snow-far"></div>
   </div>
+  <div class="snow snow-near" aria-hidden="true"></div>
 
   <main class="home">
     <section class="carousel" aria-label="크리스마스 회전목마">
@@ -45,11 +46,15 @@
                 <stop stop-color="#fff4d9"/><stop offset="1" stop-color="#d8a485"/>
               </linearGradient>
               <radialGradient id="shadow">
-                <stop stop-color="#0d0c1a" stop-opacity=".92"/><stop offset="1" stop-color="#0d0c1a" stop-opacity="0"/>
+                <stop stop-color="#20172a" stop-opacity=".9"/><stop offset=".7" stop-color="#2d2136" stop-opacity=".6"/><stop offset="1" stop-color="#2d2136" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="snow-light">
+                <stop stop-color="#fed0ad" stop-opacity=".53"/><stop offset=".56" stop-color="#eeb9a0" stop-opacity=".25"/><stop offset="1" stop-color="#eeb9a0" stop-opacity="0"/>
               </radialGradient>
             </defs>
+            <ellipse cx="300" cy="512" rx="298" ry="48" fill="url(#snow-light)"/>
+            <ellipse cx="300" cy="513" rx="279" ry="36" fill="url(#shadow)"/>
             <g transform="translate(0 90)">
-              <ellipse cx="300" cy="411" rx="294" ry="36" fill="url(#shadow)"/>
               <path d="M53 376v20c0 24 110 43 247 43s247-19 247-43v-20Z" fill="url(#base)" stroke="#2c1b31" stroke-width="2"/>
               <ellipse cx="300" cy="375" rx="247" ry="42" fill="url(#floor)" stroke="#efbb8b" stroke-width="3"/>
               <ellipse cx="300" cy="375" rx="224" ry="33" fill="none" stroke="#edab86" stroke-opacity=".45"/>
@@ -57,6 +62,7 @@
               <g class="floor-spokes"></g>
               <g class="floor-lights"></g>
             </g>
+            <path d="M66 496q10 9 32 14m19 4 12 3m362-10q14-5 25-12m-41 18-8 2" fill="none" stroke="#f6dcd4" stroke-opacity=".47" stroke-width="2" stroke-linecap="round"/>
             <path d="M271 459v7c0 10 58 10 58 0v-7Z" fill="url(#base)" stroke="#d99c75" stroke-width="2"/>
             <ellipse cx="300" cy="459" rx="29" ry="8" fill="url(#gold)"/>
             <path d="M279 143h42v314c0 8-42 8-42 0Z" fill="url(#column)" stroke="#e9ab7e" stroke-width="2"/>
@@ -97,7 +103,7 @@
               <button class="card" type="button" aria-label="데이트 이상형 월드컵, 준비 중">
                 <img src="/assets/trophy.svg" width="240" height="238" alt="" draggable="false">
                 <span class="ribbon" aria-hidden="true">Coming soon!</span>
-                <span class="card-caption"><strong>데이트 이상형 월드컵</strong></span>
+                <span class="card-caption"><strong><span>데이트</span> <span>이상형 월드컵</span></strong></span>
               </button>
             </div>
           </div>

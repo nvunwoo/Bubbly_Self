@@ -242,11 +242,25 @@ makeParticles('.stars', 32, (star, index) => {
   return { x: `${(index * 63 + 8) % 97}%`, y: `${(index * 29 + 3) % 46}%`, size: bright ? '9px' : `${1 + index % 3}px`, speed: `${2 + index % 4}s`, delay: `${-(index % 7) / 2}s` };
 });
 
-makeParticles('.snow', 28, (flake, index) => {
-  flake.className = 'flake';
-  const speed = 9 + index % 11;
-  return { x: `${(index * 37 + 2) % 98}%`, y: `${(index * 43) % 97}vh`, size: `${1 + index % 4}px`, opacity: .2 + index % 4 * .13, speed: `${speed}s`, delay: `${-(index * 2.7 % speed)}s`, drift: `${-24 + index % 10 * 5}px` };
-});
+function addSnow(layer, count, near) {
+  makeParticles(layer, count, (flake, index) => {
+    flake.className = 'flake';
+    const speed = (near ? 7 : 12) + index % 11;
+    const phase = (index * .618 + (near ? .28 : .1)) % 1;
+    return {
+      x: `${(index * 37.3 + (near ? 19 : 2)) % 99}%`,
+      y: `${phase * 98}vh`,
+      size: `${(near ? 2.5 : 1) + index % 4 * .65}px`,
+      opacity: (near ? .43 : .25) + index % 4 * .11,
+      speed: `${speed}s`,
+      delay: `${-phase * speed}s`,
+      drift: `${-21 + index % 9 * 9}px`,
+    };
+  });
+}
+
+addSnow('.snow-far', 48, false);
+addSnow('.snow-near', 16, true);
 
 select(0, false);
 render();
